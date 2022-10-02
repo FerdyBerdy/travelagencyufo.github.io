@@ -1,0 +1,21 @@
+div {
+    width: 400px;
+    height: 500px; 
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 2%;
+
+#firstchild div {
+    color: hsl(228, 12%, 48%);
+}
+
+
+#secondchild div {
+    color: hsl(212, 21%, 14%);
+    
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}

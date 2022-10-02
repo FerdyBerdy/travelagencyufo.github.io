@@ -1,0 +1,149 @@
+@font-face {
+    font-family: ADVENTURE;
+    src: url(Comfortaa-Bold.ttf);
+}
+
+
+
+body{
+    background-color: black;
+    color:white; 
+    overflow-x: hidden;
+}
+
+
+.title{
+    font-family: ADVENTURE;
+    font-size: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    
+
+}
+
+.formpaper{
+    background-color: rgb(25, 25, 25);
+    width: 900px;
+    height: 4100px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+p{
+    font-size: 20px;
+    font-family: ADVENTURE;
+}
+
+
+textarea{
+    border-radius: 30px;
+    font-family: ADVENTURE;
+    padding: 20px;
+}
+
+
+label {
+    font-family: ADVENTURE;
+}
+
+
+.labelone{
+    font-family: ADVENTURE;
+}
+
+.rocks {
+    background-image: url(selectimage/rocks.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+}
+
+
+
+.pink {
+    background-image: url(selectimage/pink.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+}
+
+.lights {
+    background-image: url(selectimage/lights.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+}
+
+.hot {
+    background-image: url(selectimage/hot.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+}
+
+.snow {
+    background-image: url(selectimage/snow.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+}
+
+
+.relax {
+    background-image: url(selectimage/relax.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+.name, .gender, .age, .partner, .aboutyou, .travel, .imagesss, .holiday, .leave, .enviro, .preferred, .budgetperday{
+    left: 60px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+.imagesss p{
+    width: 700px;
+    margin-bottom: 80px;
+}
+
+.imagesss div{
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+

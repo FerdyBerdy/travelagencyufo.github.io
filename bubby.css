@@ -1,0 +1,754 @@
+
+@font-face {
+    font-family: ADVENTURE;
+    src: url(Comfortaa-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: liquid;
+    src: url(LIQUIDO-Fluid.otf);
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    height: 700vh;
+    overflow-x: hidden;
+
+ }
+ 
+ 
+.ul1{
+    flex: 1;
+    font-family: ADVENTURE;;
+    display: flex;
+    position: relative; 
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 18px;
+    width: 1600px;
+
+    text-transform: uppercase;
+    gap: 60px;
+    padding-top: 20px;
+}
+
+.ul1 :last-child{
+    align-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+
+}
+
+.pfp {
+    margin-left: 350px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.about, .contacts, .blogs, .home {
+    padding-top: 17px;
+}
+
+
+.firstlist {
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+
+
+.home {
+    margin-left: 300px;
+    padding-top: 17px;
+    position: absolute;
+    display: block;
+}
+
+.badge{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aquamarine;
+    color: black;
+    position: absolute;
+    top: 40px;
+    margin: 0;
+    font-family: ADVENTURE;
+    font-size: 10px;
+    left: 1330px;
+}
+
+.badge p {
+    bottom: 4px;
+    position: relative;
+}
+
+
+.trazie{
+    font-family: liquid;
+    font-size: 40px;
+    padding-bottom: 60px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    position: absolute;
+    margin-top: 2px;
+    
+
+}
+
+.ul1 :first-child{
+
+    width: 60px;
+    height: 60px;
+
+}
+
+
+
+.mascot{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover{
+   text-decoration: underline;
+   transition: color 600ms;
+   color: aquamarine;
+
+}
+
+.experience{
+    position: relative;
+    margin-top: 300px;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    font-size: 40px;
+    background-image: url(../../../Pictures/city.jpg);
+    padding-right: 10px;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.experience p{
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+p{
+    font-family: ADVENTURE;
+}
+
+
+
+
+
+
+.modal {
+    background-color: white;
+    color: black;
+    z-index: 10000;
+    position: fixed;
+    top: 50%;
+    left: 43%;
+    width: 400px;
+    height: 400px;
+    transform: translate(-30%, -50%) scale(0);
+    border-radius: 20px;
+    transition: 200ms ease-in-out;
+}
+
+
+.modal.active {
+    transform: translate(-30%, -50%) scale(1);
+}
+
+.modal-body {
+    padding-left: 20px;
+    color: black;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+
+
+
+.title {
+    padding-left: 40px;
+    font-family: ADVENTURE;
+    padding-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+
+}
+
+
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.close-button{
+    margin-top: 30px;
+    margin-right: 40px;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    color: black;
+
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .7);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+}
+
+#overlay.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+
+.modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.openme{
+    font-family: ADVENTURE;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    position: absolute;
+    bottom: 670px;
+    left: 1260px;
+}
+
+.openme:hover{
+    color: aquamarine;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 600ms;
+}
+
+.contenttext{
+    position: relative;
+    top: 800px;
+}
+
+
+
+.service {
+    margin-top: 500px;
+    
+}
+
+
+a:hover {
+    cursor: pointer;
+    
+}
+
+
+
+.h3first {
+    margin-bottom: 100px;
+     font-size: 30px;
+    font-family: ADVENTURE;
+     text-align: center;
+
+    
+}
+
+.pay {
+    margin-top: 500px;
+    padding-bottom: 300px;
+    padding-right: 30px;
+    background-color: white;
+    color: black;
+    padding-top: 100px;
+}
+
+
+.slide{
+    position: relative;
+    height: 500px;
+    width: 100%;
+
+    margin: 0 auto;
+    left: 360px;
+
+}
+
+.workplease {
+    list-style: none;
+    height: 100%;
+    
+    padding: 0;
+    margin: 0;
+    transition: transform 250ms ease-in;
+    
+
+}
+
+.bodyslide {
+    position: absolute; 
+    left: 360px;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+ 
+
+}
+
+
+.bodyslide img{
+    width: 800px;
+    border-radius: 30px;
+    height: 100%;
+}
+
+
+
+
+.slide button {
+    background: none;
+    font-size: 60px;
+    color: white;
+    font-family: liquid;
+    z-index: 40;
+    border: none;
+    
+}
+
+.leftarrow{
+    position: absolute;
+    top: 205px;
+    right:1560px;
+    cursor: pointer;
+    
+
+}
+
+
+.rightarrow {
+    left: 850px;
+    position: absolute;
+    bottom: 222px;
+    cursor: pointer;
+   
+    
+}
+
+
+.navigateimages {
+    display: flex;
+    justify-content: center;
+    background: none;
+    height: 50px;
+    z-index: 3;
+    bottom: 1800px;
+    
+
+    
+}
+
+
+.navigationindicators {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(102, 102, 102);
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+
+.navigationindicators.current-slide {
+    background: #FF185E;
+}
+
+
+
+.firstreview, .secondreview, .thirdreview {
+    border-radius: 30px;
+    width: 400px;
+    padding: 20px;
+    background-color: black;
+    background-color: #FF185E;
+
+    
+}
+
+
+.groupreview {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.shadow, .random, .pepe {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.firstreview {
+    margin-left: 30px;
+}
+
+.thirdreview {
+    margin-right: 30px;
+}
+
+
+.rating {
+    width: 100px;
+}
+
+
+.experience h3 {
+    font-size: 30px;
+    font-family: ADVENTURE;
+    text-align: center;
+}
+
+.pros h3 {
+    font-size: 30px;
+    font-family: ADVENTURE;
+    text-align: center;
+}
+
+
+.proone {
+    width: 300px;
+   
+    padding-right: 100px;
+
+}
+
+.protwo {
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.prothree {
+    width: 300px;
+    padding-left: 100px;
+    
+}
+
+.places{
+    margin-top: 300px;
+}
+
+.places h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    font-family: ADVENTURE;
+    text-align: center;
+}
+
+.pay h3 {
+    font-size: 30px;
+    font-family: ADVENTURE;
+    text-align: center;
+}
+
+
+.eb {
+    font-size: 20px;
+    font-family: ADVENTURE;
+   
+}
+
+.tin {
+    font-size: 20px;
+    font-family: ADVENTURE;
+   
+}
+
+.oz {
+    font-size: 20px;
+    font-family: ADVENTURE;
+    
+}
+
+
+
+
+.pros h3{
+    margin-top: 500px;
+}
+
+
+
+.pros img {
+    width: 400px;
+    height: 380px;
+    padding: 0;
+    margin: 0;
+    right: 80px;
+    position: relative;
+}
+
+.pros ul {
+    
+    width: 1400px;
+    list-style: none;
+    height: 690px;
+    flex-direction: row;
+    padding: none;
+    position: relative;
+    justify-content: center;
+
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+
+
+}
+
+
+
+
+.pros h1 {
+    text-transform: uppercase;
+    font-family: ADVENTURE;
+    font-size: 25px;
+    
+}
+
+
+
+
+.contactus {
+    background-color: aquamarine;
+    color: black;
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: ADVENTURE;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    left: 680px;
+}
+
+.correctedbutton{
+    color: black;
+    text-decoration: none;
+}
+
+
+.correctedbutton:hover{
+    text-decoration: underline;
+    transition: none;
+    color: black;
+}
+
+.copyright {
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+.copyright:hover {
+    cursor: pointer;
+}
+
+
+.tou{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    left: 1300px;
+}
+
+.tou:hover {
+    cursor: pointer;
+}
+
+
+.pp{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    left: 1400px;
+}
+
+.pp:hover {
+    cursor: pointer;
+}
+
+
+.socials {
+    bottom: 100px;
+    width: 100%;
+    margin: auto 0; 
+    list-style: none;
+    position: absolute;
+    
+    
+
+
+}
+
+
+.socials ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+
+}
+
+.socials li {
+    padding: 10px;
+}
+
+.socials img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.onee{
+    background-color: rgb(227, 227, 227);
+    border-radius: 20px;
+    width: 350px;
+    padding: 5px;
+    position: relative;
+    left: 40px;
+    
+   
+
+}
+
+.footer {
+
+    color: black;
+}
+
+.bottom{
+    background-color: white;
+    padding: none;
+    
+}
+
+
+.onee h3{
+    font-family: ADVENTURE;
+    font-size: 18px;
+}
+
+
+.onee p{
+    font-family: ADVENTURE;
+    font-size: 15px;
+}
+
+.onee {
+    width: 300px;
+}
+
+
+.twoo{
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    width: 300px;
+    padding: 5px;
+    top: 15px;
+    color: rgb(74, 74, 74);
+    position: relative;
+    left: 40px;
+  
+}
+
+.onee a:hover{
+    text-decoration: none;
+}
+
+.twoo a:hover{
+    text-decoration: none;
+}
+
+.twoo h3{
+    font-family: ADVENTURE;
+    font-size: 18px;
+}
+
+
+.twoo p{
+    font-family: ADVENTURE;
+    font-size: 15px;
+}
+
+
+
+.changecolor1 {
+    color: black;
+}
+
+.changecolor2 {
+    color: rgb(132, 132, 132);
+}

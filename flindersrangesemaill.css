@@ -1,0 +1,121 @@
+@font-face {
+    font-family: CowboyKaraoke;
+    src: url(CowboyCadaver-K6jp.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+p {
+    font-size: 18px;   
+    font-family: light; 
+    padding-top: 20px;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: 60px;
+    overflow-x: hidden;
+
+}
+
+
+
+
+.text {
+    font-family: CowboyKaraoke;
+    font-size: 50px;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    display: flex;
+    top: 290px;
+    left: 380px;
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+    
+
+
+
+.image {
+    width: 100%;
+    z-index: 1;
+    position: relative; 
+    justify-content: center;
+    display: flex;
+    top: 60px;
+    border-radius: 20px;
+
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}   
+    
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+img {
+    width: 70%;
+    border-radius: 30px;
+    opacity: 70%;
+    filter: saturate(100%);
+    filter: contrast(140%);
+    transform: rotateY(180deg);
+}
+
+
+
